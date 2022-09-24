@@ -14,6 +14,12 @@ module.exports = class extends Generator {
 
     const prompts = [
       {
+        type: "input",
+        name: "name",
+        message: "Your project name",
+        default: this.appname // Default to current folder name
+      },
+      {
         type: "confirm",
         name: "auth",
         message: "Would you like to add login signup pages?",

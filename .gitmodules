@@ -1,0 +1,3 @@
+[submodule "generator-pbp-react"]
+	path = generator-pbp-react
+	url = https://github.com/prakhar-ti/generator-pbp-react
